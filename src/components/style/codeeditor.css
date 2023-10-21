@@ -1,0 +1,249 @@
+/* Blocks */
+
+.body {
+  background-color: #dfccfb;
+}
+
+/* Block - Code Editor */
+.code-editor {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #5d12d2;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 2.1);
+}
+
+/* Block - iframe */
+iframe {
+  border: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid rgb(93 18 210);
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+/* Block - Logo */
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Block - Brand */
+.brand {
+  width: 180px;
+  height: 60px;
+  border-radius: 50px;
+  margin-left: 8px;
+}
+
+/* Block - Head */
+.head {
+  margin-right: 35px;
+}
+
+/* Block - Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Block - Line */
+.line {
+  opacity: 1;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Block - Line 1 */
+.line1 {
+  opacity: 0.4;
+  color: #fff;
+}
+/* Block - Butto */
+.butto {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.ico{
+  color: #fff;
+}
+
+/* Block - Run Button */
+.run-button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #059a47;
+  color: #fff;
+  width: 30%;
+  margin-left: 35%;
+}
+
+/* Block - Btn */
+.btn {
+  border-radius: 20px;
+}
+
+/* Block - Run */
+.run {
+  margin-bottom: 10px !important;
+}
+
+/* Modifier - Locked State */
+.code-editor--locked {
+  background-color: #f2f2f2 !important;
+}
+
+/* Modifier - Locked State (Code Editor) */
+.code-editor--locked .code-editor__textarea {
+  background-color: #f2f2f2;
+  color: #6f6868;
+}
+
+/* Element - Title of the Code Editor */
+.code-editor__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Element - Textarea for Code Input */
+.code-editor__textarea {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Courier New", monospace;
+}
+
+/* Element - H4 */
+h4 {
+  font-weight: 800;
+  color: #fff;
+}
+
+/* Element - H3 */
+h3 {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+/* Element - Textarea */
+textarea {
+  resize: horizontal;
+  width: 100%;
+  height: 50vh;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+
+/* Element - Buttons for Actions (Copy, Save, Indent, Lock/Unlock) */
+.code-editor__button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.code-editor__button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .head {
+    margin-top: 3%;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-left: 28px;
+  }
+  .brand {
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: -20px;
+  }
+}
+
+/* Media Query for Larger Mobile */
+@media (min-width: 320px) {
+  .head {
+    margin-top: 3%;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-left: 30px;
+  }
+}
+
+/* Media Query for Tablets */
+@media (min-width: 375px) {
+  .head {
+    margin-top: 3%;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-left: 61px;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 25px !important;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 11px;
+  }
+}
+
+/* Media Query for Larger Tablets */
+@media (min-width: 425px) {
+  .head {
+    margin-top: 3%;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-left: 86px;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 25px !important;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 24px;
+  }
+}
+
+/* Media Query for Tablet Range (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .brand {
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 11px;
+  }
+}
