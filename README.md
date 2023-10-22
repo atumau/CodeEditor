@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Code Editor Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Code Editor Project! This is a web-based code editor that allows you to write, edit, and run code right in your browser. It's deployed on Vercel, and running it is straightforward.
 
-## Available Scripts
+## Prerequisites
+- You'll need a modern web browser (e.g., Chrome, Firefox, Safari) to use this code editor.
+- Internet connectivity is required to access the deployed version.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+1. **Access the Deployed Project:**
+   - You can access the deployed version of the Code Editor Project by navigating to (https://code-editor-rouge-rho.vercel.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Explore the Code Editor:**
+   - Once you've opened the web app, you'll see the code editor interface.
+   - You can start typing or pasting your code into the editor.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Editing Code:**
+   - To edit code, simply click inside the code editor and make your changes.
 
-### `npm test`
+4. **Running Code:**
+   - Click the "Run" or "Execute" button to execute the code.
+   - You'll see the output or result in the console area.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Saving Code:**
+   - You can save your code snippets by clicking the "Save" button.
 
-### `npm run build`
+## Additional Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The code editor project may have additional features like syntax justifying, code copy,Save and more. Explore the user interface to discover these features.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Issues and Bug Reporting
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- If you encounter any issues, bugs, or have suggestions for improvement, please create a new issue in the [Issue Tracker](https://github.com/atumau/CodeEditor/issues).
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using the Code Editor Project, and happy coding!
